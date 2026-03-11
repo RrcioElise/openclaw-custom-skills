@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# State files
+*.json.bak
+*-state.json
+
+# Node modules
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.pid

@@ -1,0 +1,22 @@
+{
+  "checkInterval": 60000,
+  "taskWarningThreshold": 600000,
+  "taskCriticalThreshold": 1200000,
+  "taskStuckThreshold": 180000,
+  "masterTimeoutWarning": 120000,
+  "masterTimeoutCritical": 300000,
+  "backendServices": [
+    {
+      "name": "ai.openclaw.staroffice-backend",
+      "label": "StarOffice Backend"
+    },
+    {
+      "name": "ai.openclaw.gateway",
+      "label": "Gateway"
+    },
+    {
+      "name": "ai.openclaw.node",
+      "label": "Node"
+    }
+  ]
+}
